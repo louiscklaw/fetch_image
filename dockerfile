@@ -17,7 +17,7 @@ RUN \
   apt-get install -y device-tree-compiler && \
   apt-get install -y file wget cpio python unzip rsync bc && \
   apt-get install -y git && \
-  apt-get install -y u-boot-tools && \
+  apt-get install -y u-boot-tools bison && \
   # provide arm-linux-gnueabihf-gcc
   apt-get install -y binutils-arm-linux-gnueabihf g++-arm-linux-gnueabihf && \
   rm -rf /var/lib/apt/lists/*
